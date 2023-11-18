@@ -1,0 +1,16 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "botania:lexicon": {
+      "viewedEntries": [
+        "botania:basics/lexicon",
+        "botania:basics/welcome",
+        "botania:basics/flowers",
+        "botania:basics/pure_daisy"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

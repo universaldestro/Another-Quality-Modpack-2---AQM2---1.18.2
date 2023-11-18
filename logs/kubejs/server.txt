@@ -1,0 +1,39 @@
+[17:31:41] [INFO ] Loaded script server_scripts:advancedreborn/advancedreborn.js in 0.001 s
+[17:31:41] [INFO ] Loaded script server_scripts:archon/balance.js in 0.0 s
+[17:31:41] [INFO ] Loaded script server_scripts:balance.js in 0.002 s
+[17:31:41] [INFO ] Loaded script server_scripts:botania/botania.js in 0.0 s
+[17:31:41] [INFO ] Loaded script server_scripts:conflicts.js in 0.001 s
+[17:31:41] [INFO ] Loaded script server_scripts:consistencyplus/remove.js in 0.001 s
+[17:31:41] [INFO ] Loaded script server_scripts:croparia/seeds.js in 0.001 s
+[17:31:41] [INFO ] Loaded script server_scripts:darkutilities/balance.js in 0.0 s
+[17:31:41] [INFO ] Loaded script server_scripts:doom/doom.js in 0.001 s
+[17:31:41] [INFO ] Loaded script server_scripts:food_unification.js in 0.006 s
+[17:31:41] [INFO ] Loaded script server_scripts:gobber/constants.js in 0.0 s
+[17:31:41] [INFO ] Loaded script server_scripts:indrev/indrev.js in 0.001 s
+[17:31:41] [INFO ] Loaded script server_scripts:mcdw/mcdw.js in 0.001 s
+[17:31:41] [INFO ] Loaded script server_scripts:misc/attributes.js in 0.0 s
+[17:31:41] [INFO ] Loaded script server_scripts:misc/settings.js in 0.0 s
+[17:31:41] [INFO ] Loaded script server_scripts:misc/startingitems.js in 0.001 s
+[17:31:41] [INFO ] Loaded script server_scripts:misc/stoptoad.js in 0.0 s
+[17:31:41] [INFO ] Loaded script server_scripts:misc/ultimate.js in 0.001 s
+[17:31:41] [INFO ] Loaded script server_scripts:misc/unplaceable_blocks.js in 0.0 s
+[17:31:41] [INFO ] Loaded script server_scripts:modern_industrialization/assembler.js in 0.0 s
+[17:31:41] [INFO ] Loaded script server_scripts:modern_industrialization/crafting.js in 0.001 s
+[17:31:41] [INFO ] Loaded script server_scripts:modern_industrialization/macerator.js in 0.0 s
+[17:31:41] [INFO ] Loaded script server_scripts:quests.js in 0.0 s
+[17:31:41] [INFO ] Loaded script server_scripts:remove.js in 0.001 s
+[17:31:41] [INFO ] Loaded script server_scripts:tags.js in 0.0 s
+[17:31:41] [INFO ] Loaded script server_scripts:techreborn/utility.js in 0.0 s
+[17:31:41] [INFO ] Loaded script server_scripts:unification.js in 0.002 s
+[17:31:41] [INFO ] Loaded 27/27 KubeJS server scripts in 0.028 s
+[17:31:41] [INFO ] Scripts loaded
+[17:31:41] [INFO ] Scanning recipes...
+[17:32:26] [INFO ] [items] Found 3024 tags, added 619 objects, removed 218 objects
+[17:32:26] [INFO ] [items] Found 3024 tags, added 619 objects, removed 218 objects
+[17:33:34] [INFO ] Found 30068 recipes and 0 failed recipes in 366.7 ms
+[17:33:39] [INFO ] Posted recipe events in 4.472 s
+[17:33:39] [WARN ] Error parsing recipe indrev:pulverizer/silver_dust_from_raw[indrev:pulverize]: {"type":"indrev:pulverize","ingredients":{"ingredient":{"item":"techreborn:raw_silver"},"count":2},"output":{"item":"modern_industrialization:silver_dust","count":3},"processTime":200}: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[17:33:39] [WARN ] Error parsing recipe indrev:pulverizer/tin_dust_from_raw[indrev:pulverize]: {"type":"indrev:pulverize","ingredients":{"ingredient":{"item":"techreborn:raw_tin"},"count":2},"output":{"item":"modern_industrialization:tin_dust","count":3},"processTime":200}: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[17:33:39] [INFO ] Modified & removed recipes in 141.2 ms
+[17:33:39] [INFO ] Added recipes in 3.593 ms
+[17:33:39] [INFO ] Added 329 recipes, removed 794 recipes, modified 2196 recipes, with 2 failed recipes and 0 fall-backed recipes

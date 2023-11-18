@@ -1,0 +1,9 @@
+{
+    "origins": [
+        "lank:iron_golem",
+        "lank:fairy",
+        "lank:vamp",
+        "jump:platformer"
+    ],
+    "enabled": true
+}

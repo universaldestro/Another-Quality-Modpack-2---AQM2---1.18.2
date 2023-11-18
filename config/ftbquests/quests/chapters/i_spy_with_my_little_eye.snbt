@@ -1,0 +1,147 @@
+{
+	id: "351023B042C700E9"
+	group: "7DDA60A5DB5F9F6C"
+	order_index: 0
+	filename: "i_spy_with_my_little_eye"
+	title: "I Spy with my Little Eye"
+	icon: "minecraft:spyglass"
+	subtitle: ["All about Exploring"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Travel to the Nether"
+			icon: "additionaladditions:mysterious_bundle"
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Its time to visit Hell to progress further. Good luck, its hard as hell."
+			id: "051C81A88B70C303"
+			tasks: [{
+				id: "61D9C9F28ECD2FE2"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "41AF2426EA4C9350"
+				type: "item"
+				item: "additionaladditions:mysterious_bundle"
+			}]
+		}
+		{
+			title: "Visit The Better Stronghold"
+			x: 0.5d
+			y: 0.0d
+			subtitle: "It's Better"
+			description: ["You can find lots here, including Arcanus spell books in the libraries"]
+			id: "21789090F6D9D027"
+			tasks: [{
+				id: "57420B926B45C780"
+				type: "structure"
+				icon: {
+					id: "mythicmetals:midas_gold_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "betterstrongholds:stronghold"
+			}]
+			rewards: [{
+				id: "5F5E6E269AEB71D6"
+				type: "item"
+				item: "gofish:golden_crate"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "You will come across a rare Mushroom"
+			id: "085D054DC0BA2696"
+			tasks: [{
+				id: "1AC55FDAE3AA75AF"
+				type: "biome"
+				title: "Find the Host Biome"
+				icon: "magicfungi:host_tall_grass"
+				biome: "magicfungi:host_biome"
+			}]
+			rewards: [{
+				id: "4AFF52220D6620E1"
+				type: "item"
+				item: "magicfungi:morbus_mushroom"
+			}]
+		}
+		{
+			title: "Visit Forgotten Forest"
+			x: -1.5d
+			y: 1.5d
+			subtitle: "It's beautiful at night"
+			id: "6DA08A9E3135D056"
+			tasks: [{
+				id: "4CE2F4F1A310D4FF"
+				type: "biome"
+				icon: "byg:green_enchanted_leaves"
+				biome: "byg:forgotten_forest"
+			}]
+			rewards: [
+				{
+					id: "3D13A29DAD0DD607"
+					type: "item"
+					item: "byg:pink_cherry_sapling"
+				}
+				{
+					id: "697EAF2EE13DB926"
+					type: "item"
+					item: "byg:blue_enchanted_sapling"
+				}
+				{
+					id: "41E3FF201C1D9438"
+					type: "item"
+					item: "byg:green_enchanted_sapling"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			subtitle: "An improved desert temple thanks to Better Desert Temples"
+			description: ["This gigantic new structure has traps, loots, and scary mobs. Can you loot it all?"]
+			id: "2B4A869598C3C703"
+			tasks: [{
+				id: "13B875DFDC0817BE"
+				type: "structure"
+				title: "Find Desert Temple"
+				icon: "prefab:item_magic_temple"
+				structure: "betterdeserttemples:desert_temple"
+			}]
+			rewards: [{
+				id: "66C0125F76B3DB24"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			subtitle: "Can you kill the killer bunny?"
+			id: "3D2478E46ED4D56E"
+			tasks: [{
+				id: "0440088B2033AC43"
+				type: "structure"
+				title: "Find the Killer Bunny Castle"
+				icon: "givemehats:bunny_ears"
+				structure: "mostructures:killer_bunny_castle"
+			}]
+			rewards: [{
+				id: "694986F142AAEF4E"
+				type: "item"
+				item: "gobber2:gobber2_gooey_bread_nether"
+			}]
+		}
+	]
+}

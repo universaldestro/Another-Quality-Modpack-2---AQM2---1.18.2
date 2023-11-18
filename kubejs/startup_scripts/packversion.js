@@ -1,0 +1,1 @@
+console.info('Loading Another Quality Modpack 2 KubeJS')

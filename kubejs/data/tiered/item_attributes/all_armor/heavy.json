@@ -1,0 +1,51 @@
+{
+  "id": "tiered:heavy",
+  "verifiers": [
+    {
+      "tag": "c:helmets"
+    },
+    {
+      "tag": "c:chestplates"
+    },
+    {
+      "tag": "c:leggings"
+    },
+    {
+      "tag": "c:boots"
+    }
+  ],
+  "weight": 15,
+  "style": {
+    "color": "dark_gray"
+  },
+  "attributes": [
+    {
+      "type": "generic.knockback_resistance",
+      "modifier": {
+        "name": "tiered:heavy",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.08795555
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "minecraft:generic.attack_speed",
+      "modifier": {
+        "name": "tiered:heavy",
+        "operation": "ADDITION",
+        "amount": -0.10
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    }
+  ]
+}

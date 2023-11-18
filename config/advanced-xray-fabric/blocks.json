@@ -1,0 +1,209 @@
+[
+  {
+    "name": "default",
+    "entries": [
+      {
+        "state": "{Name:\"minecraft:gold_ore\"}",
+        "name": "Gold Ore",
+        "color": "#6f7bab",
+        "order": 0,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:iron_ore\"}",
+        "name": "Iron Ore",
+        "color": "#ffffff",
+        "order": 1,
+        "isDefault": false,
+        "active": true
+      },
+      {
+        "state": "{Name:\"minecraft:diamond_ore\"}",
+        "name": "Diamond Ore",
+        "color": "#4580ff",
+        "order": 2,
+        "isDefault": false,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:redstone_ore\",Properties:{lit:\"false\"}}",
+        "name": "Redstone Ore",
+        "color": "#0f26af",
+        "order": 3,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:lapis_ore\"}",
+        "name": "Lapis Lazuli Ore",
+        "color": "#fe5a03",
+        "order": 4,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:coal_ore\"}",
+        "name": "Coal Ore",
+        "color": "#8143f1",
+        "order": 5,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:emerald_ore\"}",
+        "name": "Emerald Ore",
+        "color": "#5739dd",
+        "order": 6,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:copper_ore\"}",
+        "name": "Copper Ore",
+        "color": "#c3ec65",
+        "order": 7,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:deepslate_gold_ore\"}",
+        "name": "Deepslate Gold Ore",
+        "color": "#8d54d1",
+        "order": 8,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:deepslate_iron_ore\"}",
+        "name": "Deepslate Iron Ore",
+        "color": "#96f1c6",
+        "order": 9,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:deepslate_diamond_ore\"}",
+        "name": "Deepslate Diamond Ore",
+        "color": "#e19db5",
+        "order": 10,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:deepslate_redstone_ore\",Properties:{lit:\"false\"}}",
+        "name": "Deepslate Redstone Ore",
+        "color": "#7e8fc0",
+        "order": 11,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:deepslate_lapis_ore\"}",
+        "name": "Deepslate Lapis Lazuli Ore",
+        "color": "#642530",
+        "order": 12,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:deepslate_coal_ore\"}",
+        "name": "Deepslate Coal Ore",
+        "color": "#8a29c9",
+        "order": 13,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:deepslate_emerald_ore\"}",
+        "name": "Deepslate Emerald Ore",
+        "color": "#4a4a8f",
+        "order": 14,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:deepslate_copper_ore\"}",
+        "name": "Deepslate Copper Ore",
+        "color": "#bda86e",
+        "order": 15,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:nether_gold_ore\"}",
+        "name": "Nether Gold Ore",
+        "color": "#15a98e",
+        "order": 16,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:ancient_debris\"}",
+        "name": "Ancient Debris",
+        "color": "#0000ff",
+        "order": 17,
+        "isDefault": false,
+        "active": false
+      },
+      {
+        "state": "{Name:\"gobber2:gobber2_ore\"}",
+        "name": "Gobber Ore",
+        "color": "#e7ca00",
+        "order": 19,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"gobber2:gobber2_ore_deepslate\"}",
+        "name": "Deepslate Gobber Ore",
+        "color": "#ffff00",
+        "order": 20,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"gobber2:gobber2_lucky_block_nether\"}",
+        "name": "Nether Gobber Lucky Block",
+        "color": "#0000ff",
+        "order": 21,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"gobber2:gobber2_ore_nether\"}",
+        "name": "Nether Gobber Ore",
+        "color": "#00f300",
+        "order": 22,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:obsidian\"}",
+        "name": "Obsidian",
+        "color": "#ffb500",
+        "order": 23,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:bookshelf\"}",
+        "name": "Bookshelf",
+        "color": "#ff0000",
+        "order": 24,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"dimdoors:oak_dimensional_door\",Properties:{facing:\"north\",half:\"lower\",hinge:\"left\",open:\"false\",powered:\"false\",waterlogged:\"false\"}}",
+        "name": "Oak Dimensional Door",
+        "color": "#5fe1b6",
+        "order": 25,
+        "isDefault": true,
+        "active": false
+      }
+    ],
+    "order": 0,
+    "active": true
+  }
+]

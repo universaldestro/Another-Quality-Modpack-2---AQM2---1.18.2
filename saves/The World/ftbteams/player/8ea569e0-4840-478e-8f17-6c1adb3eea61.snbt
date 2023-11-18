@@ -1,0 +1,16 @@
+{
+	id: "8ea569e0-4840-478e-8f17-6c1adb3eea61"
+	type: "player"
+	player_name: "universaldestro"
+	ranks: {
+		8ea569e0-4840-478e-8f17-6c1adb3eea61: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "universaldestro"
+		"ftbteams:color": "#59CCFF"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

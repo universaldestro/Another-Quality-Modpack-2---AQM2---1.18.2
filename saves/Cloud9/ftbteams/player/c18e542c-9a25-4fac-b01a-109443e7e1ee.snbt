@@ -1,0 +1,16 @@
+{
+	id: "c18e542c-9a25-4fac-b01a-109443e7e1ee"
+	type: "player"
+	player_name: "Trafalk"
+	ranks: {
+		c18e542c-9a25-4fac-b01a-109443e7e1ee: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Trafalk"
+		"ftbteams:color": "#A159FF"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

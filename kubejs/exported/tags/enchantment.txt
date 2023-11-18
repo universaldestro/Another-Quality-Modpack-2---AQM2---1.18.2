@@ -1,0 +1,33 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 17, 2022, 4:41:42 PM
+
+#c:weapon_damage_enhancement
+- minecraft:bane_of_arthropods
+- minecraft:impaling
+- minecraft:smite
+- minecraft:power
+- minecraft:sharpness
+- spectrum:improved_critical?
+- spectrum:first_strike?
+- spectrum:sniper?
+
+#c:entity_movement_enhancement
+- minecraft:depth_strider
+- minecraft:soul_speed
+
+#dark-enchanting:disabled
+
+#c:looting
+- minecraft:looting
+- spectrum:clovers_favor?
+- spectrum:treasure_hunter?
+
+#c:entity_defense_enhancement
+- minecraft:feather_falling
+- minecraft:protection
+- minecraft:blast_protection
+- minecraft:projectile_protection
+- minecraft:fire_protection
+- minecraft:respiration
+
+#c:fortune
+- minecraft:fortune

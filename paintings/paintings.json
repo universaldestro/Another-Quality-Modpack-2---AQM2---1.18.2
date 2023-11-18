@@ -1,0 +1,835 @@
+{
+  "_comment0": "This is a base file provided by Paintings ++",
+  "_comment1": "Delete the paintings directory to regenerate this file.",
+  "_comment2": "This file can be edited or deleted if desired.",
+  "_comment3": "However, It is recomended you make a new file with all your own paintings in for optimal customisation",
+  "_comment4": "Additional painting textures can be added in a ResourcePack under directory :",
+  "_comment5": "assets/paintings/textures/painting",
+  "_comment6": "For optimal experience, please keep your file sizes in multiples of 16 !",
+  "paintings": [
+    {
+      "name": "abstract_blue",
+      "square": 16
+    },
+    {
+      "name": "abstract_rainbow",
+      "square": 16
+    },
+    {
+      "name": "abstract_red",
+      "square": 16
+    },
+    {
+      "name": "abstract_sunset",
+      "square": 16
+    },
+    {
+      "name": "arachnophobe",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "barn_owl",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "big_z",
+      "square": 16
+    },
+    {
+      "name": "blue_bird",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "bluesclues",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "borgia",
+      "x": 16,
+      "y": 32
+    },
+    {
+      "name": "cane",
+      "x": 16,
+      "y": 32
+    },
+    {
+      "name": "cat_black",
+      "square": 16
+    },
+    {
+      "name": "cat_gray",
+      "square": 16
+    },
+    {
+      "name": "cat_orange",
+      "square": 16
+    },
+    {
+      "name": "cat",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "colorful_squares",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "crest",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "danger_zone",
+      "square": 32
+    },
+    {
+      "name": "decorative_gun",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "exit_down",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "exit_up",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "exit_left",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "exit_right",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "face_bat",
+      "square": 16
+    },
+    {
+      "name": "face_chicken",
+      "square": 16
+    },
+    {
+      "name": "face_cow",
+      "square": 16
+    },
+    {
+      "name": "face_creeper",
+      "square": 16
+    },
+    {
+      "name": "face_dog",
+      "square": 16
+    },
+    {
+      "name": "face_enderman",
+      "square": 16
+    },
+    {
+      "name": "face_pig",
+      "square": 16
+    },
+    {
+      "name": "face_pigman",
+      "square": 16
+    },
+    {
+      "name": "face_silverfish",
+      "square": 16
+    },
+    {
+      "name": "face_skeleton",
+      "square": 16
+    },
+    {
+      "name": "face_squid",
+      "square": 16
+    },
+    {
+      "name": "face_zombie",
+      "square": 16
+    },
+    {
+      "name": "fishes",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "flowers",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "fruits",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "ghost",
+      "x": 16,
+      "y": 32
+    },
+    {
+      "name": "glowlamp",
+      "square": 32
+    },
+    {
+      "name": "glowstone_hourglass",
+      "x": 16,
+      "y": 32
+    },
+    {
+      "name": "iluvmc",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "link",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "mine_prosperity",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "no_trespassing_for_mobs",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "ocelot",
+      "square": 16
+    },
+    {
+      "name": "penguin",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "pig_on_a_cliff",
+      "square": 32
+    },
+    {
+      "name": "pkmn_blue",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "pkmn_red",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "pkmn_green",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "plains_hut",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "portrait_2",
+      "square": 16
+    },
+    {
+      "name": "portrait",
+      "square": 32
+    },
+    {
+      "name": "prison",
+      "x": 16,
+      "y": 32
+    },
+    {
+      "name": "prosperity",
+      "x": 16,
+      "y": 32
+    },
+    {
+      "name": "rest",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "skeleton",
+      "x": 16,
+      "y": 32
+    },
+    {
+      "name": "sky",
+      "x": 32,
+      "y": 32
+    },
+    {
+      "name": "skyblock",
+      "x": 32,
+      "y": 32
+    },
+    {
+      "name": "snake",
+      "x": 16,
+      "y": 32
+    },
+    {
+      "name": "snow_landscape",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "subaraki",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "synth_city",
+      "square": 16
+    },
+    {
+      "name": "tapistry_a",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "tapistry_b",
+      "x": 16,
+      "y": 32
+    },
+    {
+      "name": "tapistry_purple",
+      "x": 16,
+      "y": 32
+    },
+    {
+      "name": "torched",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "waterfall",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "whale",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "wheat_field",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "wolf_in_wheat",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "0courbet",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "0fighters",
+      "x": 64,
+      "y": 32
+    },
+    {
+      "name": "oak",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "oak_large",
+      "x": 64,
+      "y": 32
+    },
+    {
+      "name": "blackstone",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "blackstone_large",
+      "x": 64,
+      "y": 32
+    },
+    {
+      "name": "gold",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "gold_large",
+      "x": 64,
+      "y": 32
+    },
+    {
+      "name": "bamboo",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "bamboo_large",
+      "x": 64,
+      "y": 32
+    },
+    {
+      "name": "crying_obsidian",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "crying_obsidian_large",
+      "x": 64,
+      "y": 32
+    },
+    {
+      "name": "purpur",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "purpur_large",
+      "x": 64,
+      "y": 32
+    },
+    {
+      "name": "dark_prismarine",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "dark_prismarine_large",
+      "x": 64,
+      "y": 32
+    },
+    {
+      "name": "lapis",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "lapis_large",
+      "x": 64,
+      "y": 32
+    },
+    {
+      "name": "nether_wart",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "nether_wart_large",
+      "x": 64,
+      "y": 32
+    },
+    {
+      "name": "copper",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "copper_large",
+      "x": 64,
+      "y": 32
+    },
+    {
+      "name": "dirt",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "name": "dirt_large",
+      "x": 64,
+      "y": 32
+    },
+    {
+      "name" : "feldhase_albrecht_durer_1502", 
+      "square" : 16
+    }, {
+      "name" : "selbstbildnis_im_pelzrock_albrecht_durer_1500", 
+      "x" : 64, 
+      "y" : 80
+    }, {
+      "name" : "das_rosenkranzfest_albrecht_durer_1506", 
+      "x" : 64, 
+      "y" : 48
+    }, {
+      "name" : "weiher_im_walde_albrecht_durer_1495", 
+      "x" : 32, 
+      "y" : 16
+    }, {
+      "name" : "der_paumgartner_altar_albrecht_durer_1503", 
+      "x" : 80, 
+      "y" : 48
+    }, {
+      "name" : "das_grosse_rasenstueck_albrecht_durer_1503", 
+      "x" : 16, 
+      "y" : 32
+    }, {
+      "name" : "selbstbildnis_albrecht_durer_1498", 
+      "x" : 64, 
+      "y" : 80
+    }, {
+      "name" : "marter_der_zehntausend_christen_albrecht_durer_1507", 
+      "x" : 64, 
+      "y" : 80
+    }, {
+      "name" : "kleine_eule_albrecht_durer_1508", 
+      "x" : 16, 
+      "y" : 32
+    }, {
+      "name" : "kaiser_maximilian_der_erste_albrecht_durer_1519", 
+      "square" : 32
+    }, {
+      "name" : "eichhoernchen_albrecht_durer_1512", 
+      "square" : 16
+    }, {
+      "name" : "der_fluegel_einer_blauracke_albrecht_durer_1512_1", 
+      "x" : 64, 
+      "y" : 48
+    }, {
+        "name" : "der_fluegel_einer_blauracke_albrecht_durer_1512_2", 
+      "square" : 32
+    }, {
+      "name" : "bacco_leonardo_da_vinci_1510_1515", 
+      "x" : 48, 
+      "y" : 64
+    }, {
+      "name" : "dama_con_lermellino_leonardo_da_vinci_1485", 
+      "x" : 64, 
+      "y" : 80
+    }, {
+      "name" : "la_belle_ferronniere_leonardo_da_vinci_1490_1495", 
+      "x" : 32, 
+      "y" : 48
+    }, {
+      "name" : "l_annunciazione_leonardo_da_vinci_1472_1475", 
+      "x" : 96, 
+      "y" : 48
+    }, {
+      "name" : "l_ultima_cena_leonardo_da_vinci_1495_1498", 
+      "x" : 96, 
+      "y" : 48
+    }, {
+      "name" : "madonna_dei_fusi_leonardo_da_vinci_1501", 
+      "x" : 48, 
+      "y" : 64
+    }, {
+      "name" : "madonna_del_garofano_leonardo_da_vinci_1473", 
+      "x" : 64, 
+      "y" : 80
+    }, {
+      "name" : "monna_lisa_leonardo_da_vinci_1503_1506", 
+      "x" : 64, 
+      "y" : 96
+    }, {
+      "name" : "bacco_caravaggio_1598", 
+      "square" : 32
+    }, {
+      "name" : "canestra_di_frutta_caravaggio_1599", 
+      "square" : 16
+    }, {
+      "name" : "david_con_la_testa_di_golia_caravaggio_1609_1610", 
+      "x" : 48, 
+      "y" : 64
+    }, {
+      "name" : "fanciullo_con_canestro_di_frutta_caravaggio_1592", 
+      "square" : 32
+    }, {
+      "name" : "giuditta_e_oloferne_caravaggio_1602", 
+      "x" : 32, 
+      "y" : 16
+    }, {
+      "name" : "i_bari_caravaggio_1595", 
+      "x" : 64, 
+      "y" : 48
+    }, {
+      "name" : "i_musici_caravaggio_1595", 
+      "x" : 48, 
+      "y" : 32
+    }, {
+      "name" : "la_deposizione_caravaggio_1604", 
+      "x" : 48, 
+      "y" : 64
+    }, {
+      "name" : "riposo_durante_la_fuga_in_egitto_caravaggio_1594_1595", 
+      "x" : 64, 
+      "y" : 48
+    }, {
+      "name" : "san_gerolamo_scrivente_caravaggio_1606", 
+      "x" : 80, 
+      "y" : 48
+    }, {
+      "name" : "narciso_caravaggio_1594_1596", 
+      "x" : 80, 
+      "y" : 96
+    }, {
+      "name" : "aristoteles_peinzend_rembrandt_van_rijn_1653", 
+      "x" : 64, 
+      "y" : 80
+    }, {
+      "name" : "danae_rembrandt_van_rijn_1636_1", 
+      "square" : 32
+    }, {
+        "name" : "danae_rembrandt_van_rijn_1636_2", 
+      "x" : 64, 
+      "y" : 32
+    }, {
+      "name" : "de_blindmaking_van_simson_rembrandt_van_rijn_1636", 
+      "x" : 80, 
+      "y" : 64
+    }, {
+      "name" : "de_nachtwacht_rembrandt_van_rijn_1642", 
+      "x" : 80, 
+      "y" : 64
+    }, {
+      "name" : "man_in_wapenuitrusting_rembrandt_van_rijn_1655_1", 
+      "x" : 64, 
+      "y" : 96
+    }, {
+        "name" : "man_in_wapenuitrusting_rembrandt_van_rijn_1655_2", 
+      "x" : 80, 
+      "y" : 112
+    }, {
+      "name" : "zelfportret_in_orientaalse_kledij_rembrandt_van_rijn_1631", 
+      "x" : 16, 
+      "y" : 32
+    }, {
+      "name" : "zelfportret_met_twee_cirkels_rembrandt_van_rijn_1665_1669", 
+      "square" : 16
+    }, {
+      "name" : "brieflezende_vrouw_in_het_blauw_jan_vermeer_1663", 
+      "square" : 16
+    }, {
+      "name" : "dame_en_dienstbode_jan_vermeer_1666_1667", 
+      "x" : 64, 
+      "y" : 48
+    }, {
+      "name" : "het_melkmeisje_jan_vermeer_1658_1661", 
+      "square" : 32
+    }, {
+      "name" : "meisje_met_de_parel_jan_vermeer_1665_1667", 
+      "x" : 16, 
+      "y" : 32
+    }, {
+      "name" : "schrijvende_vrouw_met_dienstbode_jan_vermeer_1670_1671", 
+      "square" : 32
+    }, {
+      "name" : "de_astronoom_jan_vermeer_1668", 
+      "square" : 48
+    }, {
+      "name" : "de_geograaf_jan_vermeer_1668_1669", 
+      "x" : 48, 
+      "y" : 64
+    }, {
+      "name" : "cuirassier_blesse_quittant_le_feu_jean_louis_andre_theodore_gericault_1814", 
+      "x" : 32, 
+      "y" : 48
+    }, {
+      "name" : "etude_de_bras_et_de_jean_louis_andre_theodore_gericault_1819_1", 
+      "x" : 32, 
+      "y" : 16
+    }, {
+      "name" : "etude_de_bras_et_de_jean_louis_andre_theodore_gericault_1819_2", 
+      "x" : 64, 
+      "y" : 32
+    }, {
+      "name" : "l_aliene_jean_louis_andre_theodore_gericault_1822_1", 
+      "square" : 32
+    }, {
+      "name" : "l_aliene_jean_louis_andre_theodore_gericault_1822_2", 
+      "x" : 16, 
+      "y" : 32
+    }, {
+      "name" : "la_monomane_du_jeu_jean_louis_andre_theodore_gericault_1819_1822", 
+      "square" : 32
+    }, {
+      "name" : "le_chasseur_de_la_garde_jean_louis_andre_theodore_gericault_1812", 
+      "x" : 48, 
+      "y" : 64
+    }, {
+      "name" : "le_monomane_du_commandement_militaire_jean_louis_andre_theodore_gericault_1819_1822", 
+      "x" : 16, 
+      "y" : 32
+    }, {
+      "name" : "le_radeau_de_la_meduse_jean_louis_andre_theodore_gericault_1817_1818_1", 
+      "x" : 96, 
+      "y" : 64
+    }, {
+      "name" : "le_radeau_de_la_meduse_jean_louis_andre_theodore_gericault_1817_1818_2", 
+      "x" : 128, 
+      "y" : 80
+    }, {
+      "name" : "le_transport_de_charbon_jean_louis_andre_theodore_gericault_1821_1822", 
+      "x" : 64, 
+      "y" : 32
+    }, {
+      "name" : "portrait_d_alfred_dedreux_enfant_jean_louis_andre_theodore_gericault_1818", 
+      "x" : 32, 
+      "y" : 48
+    }, {
+      "name" : "portrait_d_elise_dedreux_jean_louis_andre_theodore_gericault_1818", 
+      "x" : 16, 
+      "y" : 32
+    }, {
+      "name" : "portrait_d_un_carabinier_jean_louis_andre_theodore_gericault_1812", 
+      "x" : 48, 
+      "y" : 64
+    }, {
+      "name" : "autoritratto_elisabetta_sirani_1660", 
+      "square" : 16
+    }, {
+      "name" : "allegory_of_music_elisabetta_sirani_1650", 
+      "x" : 32, 
+      "y" : 48
+    }, {
+      "name" : "autoritratto_elisabetta_sirani_1658", 
+      "x" : 48, 
+      "y" : 64
+    }, {
+      "name" : "battesimo_di_cristo__elisabetta_sirani_1658", 
+      "x" : 96, 
+      "y" : 64
+    }, {
+      "name" : "finding_of_moses_elisabetta_sirani_1638_1665", 
+      "x" : 64, 
+      "y" : 48
+    }, {
+      "name" : "porzia_che_si_ferisce_alla_coscia_elisabetta_sirani_1664", 
+      "x" : 64, 
+      "y" : 48
+    }, {
+      "name" : "ritratto_di_vincenzo_ferdinando_ranuzzi_in_veste_di_amore_elisabetta_sirani_1638_1665", 
+      "square" : 16
+    }, {
+      "name" : "timoclea_uccide_il_capitano_di_alessandro_magno_elisabetta_sirani_1659", 
+      "x" : 80, 
+      "y" : 96
+    }, {
+      "name" : "virgin_and_child_elisabetta_sirani_16381_1665", 
+      "square" : 32
+    }, {
+      "name" : "giuditta_con_la_testa_di_oloferne_fede_galizia_1578_1630", 
+      "square" : 16
+    }, {
+      "name" : "natura_morta_di_pesche_in_un_bacile_e_fiori_ai_latti_fede_galizia_1578_1630", 
+      "square" : 32
+    }, {
+      "name" : "natura_morta_fede_galizia_1593", 
+      "x" : 32, 
+      "y" : 16
+    }, {
+      "name" : "ritratto_di_paolo_morigia_fede_galizia_1592_1595", 
+      "x" : 16, 
+      "y" : 32
+    }, {
+      "name" : "portrait_of_cornelis_van_der_geest_anthony_van_dyck_1620", 
+      "square" : 16
+    }, {
+      "name" : "zelfportret_anthony_van_dyck_1633", 
+      "x" : 64, 
+      "y" : 48
+    }, {
+      "name" : "zelfportret_anthony_van_dyck_1615", 
+      "square" : 32
+    }, {
+      "name" : "willem_the_second_van_oranje_met_zijn_toekomstige_bruid_maria_henriette_stuart_anthony_van_dyck_1640", 
+      "x" : 48, 
+      "y" : 80
+    }, {
+      "name" : "portrait_of_queen_consort_henrietta_maria_of_france_anthony_van_dyck_1632_1635", 
+      "x" : 16, 
+      "y" : 32
+    }, {
+      "name" : "portrait_d_isabella_brant_anthony_van_dyck_1621", 
+      "x" : 16, 
+      "y" : 32
+    }, {
+      "name" : "drievoudig_portret_van_de_engelse_koning_karel_the_first_anthony_van_dyck_1600_1649", 
+      "x" : 64, 
+      "y" : 48  
+    }, {
+      "name" : "de_vijf_oudste_kinderen_van_karel_the_first_anthony_van_dyck_1637", 
+      "x" : 64, 
+      "y" : 48
+    }, {
+      "name" : "charles_the_first_at_the_hunt_anthony_van_dyck_1635", 
+      "x" : 32, 
+      "y" : 64
+    }, {
+      "name" : "susanna_e_i_vecchioni_artemisia_gentileschi_1610", 
+      "x" : 64, 
+      "y" : 96
+    }, {
+      "name" : "santa_caterina_di_alessandria_artemisia_gentileschi_1619", 
+      "x" : 64, 
+      "y" : 80
+    }, {
+      "name" : "sansone_e_dalila_artemisia_gentileschi_1630_1638", 
+      "x" : 64, 
+      "y" : 48
+    }, {
+      "name" : "salome_con_la_testa_di_san_giovanni_battista_artemisia_gentileschi_1610_1615", 
+      "square" : 32 
+    }, {
+      "name" : "maria_maddalena_in_estasi_artemisia_gentileschi_1623", 
+      "x" : 48, 
+      "y" : 32  
+    }, {
+      "name" : "maddalena_penitente_artemisia_gentileschi_1620", 
+      "x" : 48, 
+      "y" : 64
+    }, {
+      "name" : "giuditta_con_la_sua_ancella_artemisia_gentileschi_1625", 
+      "square" : 32
+    }, {
+      "name" : "giuditta_che_decapita_oloferne_artemisia_gentileschi_1614_1620", 
+      "x" : 32, 
+      "y" : 48  
+    }, {
+      "name" : "ester_e_assuero_artemisia_gentileschi_1628_1635", 
+      "x" : 48, 
+      "y" : 32
+    }, {
+      "name" : "cleopatra_artemisia_gentileschi_1633_35", 
+      "x" : 64, 
+      "y" : 48
+    }, {
+      "name" : "betsabea_al_bagno_artemisia_gentileschi_1645_1650", 
+      "x" : 48, 
+      "y" : 64
+    }, {
+      "name" : "autoritratto_come_suonatrice_di_liuto_artemisia_gentileschi_1615_1617", 
+      "square" : 16 
+    }, {
+      "name" : "autoritratto_come_allegoria_della_pittura_artemisia_gentileschi_1538_1539", 
+      "x" : 32, 
+      "y" : 48  
+    }, {
+      "name" : "giuditta_con_la_sua_ancella_artemisia_gentileschi_1613_1614", 
+      "square" : 32
+    }, {
+      "name" : "giaele_e_sisara_artemisia_gentileschi_1620", 
+      "x" : 80, 
+      "y" : 48  
+    }
+  ]
+}

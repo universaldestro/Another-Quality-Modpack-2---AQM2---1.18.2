@@ -1,0 +1,8 @@
+[13:01:13] [INFO ] Loaded script client_scripts:brand.js in 0.0 s
+[13:01:13] [INFO ] Loaded script client_scripts:category.js in 0.0 s
+[13:01:13] [INFO ] Loaded script client_scripts:cropariaseeds.js in 0.002 s
+[13:01:13] [INFO ] Loaded script client_scripts:modify.js in 0.003 s
+[13:01:13] [INFO ] Loaded script client_scripts:nbthide.js in 0.001 s
+[13:01:13] [INFO ] Loaded script client_scripts:rei_info.js in 0.0 s
+[13:01:13] [INFO ] Loaded script client_scripts:rei_unification.js in 0.002 s
+[13:01:13] [INFO ] Loaded 7/7 KubeJS client scripts in 0.011 s

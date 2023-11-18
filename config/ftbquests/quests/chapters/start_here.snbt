@@ -1,0 +1,1245 @@
+{
+	id: "48AED9D0BCAFF527"
+	group: "5D105B5F3CE9B0B7"
+	order_index: 0
+	filename: "start_here"
+	title: "Start Here"
+	icon: "minecraft:oak_log"
+	subtitle: ["The Basics"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.0d
+			y: -3.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/book.png"
+			hover: ["The Wiki (Coming Soon)"]
+			click: "#WIKI LINK#"
+			dev: true
+			corner: false
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "kubejs:textures/gui/presets/aqm2.png"
+			hover: ["Click here to join the AQM Discord"]
+			click: "https://discord.gg/y6Sby9BGVe"
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Locate Biomes"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Nature's Compass... more like your best friend"
+			description: ["Want to find biomes fast? Then you'll need Nature's Compass! This handy necessity gives you the coordinates, and a compass to show you the direction you need to follow for your targeted biome."]
+			id: "0DFD9D948D188C8A"
+			tasks: [{
+				id: "4A862D9C33B13F3E"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "77EE29556AEC37C8"
+				type: "item"
+				item: "gofish:wooden_crate"
+			}]
+		}
+		{
+			title: "Use Auto Run"
+			icon: "minecraft:clock"
+			x: 2.0d
+			y: -0.5d
+			subtitle: "In AQM you can run automatically"
+			description: ["The way to auto run is as follows; Press 'ESC-> Go into Options--> Go into Controls---> Keybind for AutorunPress the key and you will run automatically. Click the checkmark once finished."]
+			id: "385F49C2862DA2E7"
+			tasks: [{
+				id: "287885062F71D113"
+				type: "checkmark"
+				title: "Complete"
+			}]
+			rewards: [{
+				id: "714FCDAA38C58ED4"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			title: "Use Ctrl and Shift in Keybinds"
+			icon: "minecraft:slime_ball"
+			x: 0.0d
+			y: 0.5d
+			subtitle: "Just Enough Keys is powerful. You can filter searching to find what you need quickly. Check out the checkbox task to learn how to use it"
+			description: [
+				"How to use the search box in Controls"
+				""
+				"Find Conflicts using: ^c"
+				""
+				"Find Controls by mod/category: @c Mod"
+				""
+				"Find Unbound Controls by: ^u key"
+				""
+				"note: key is optional"
+				""
+				"Find Key Name by: @k key"
+				""
+				""
+				"example: ^c @c Movement"
+				"will find all conflicts in the movement category"
+			]
+			id: "7BF13BA80370EF5F"
+			tasks: [{
+				id: "397AA3F242E1F624"
+				type: "checkmark"
+				title: "Complete"
+			}]
+		}
+		{
+			title: "Claim Land"
+			icon: {
+				id: "minecraft:golden_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.0d
+			y: 2.5d
+			subtitle: "Okay you're in a server or playing with randoms and want your land protected. We got you! "
+			description: [
+				"With land claims, you can use the command /flan"
+				"or you can use a golden hoe. "
+				""
+				"You get a new claim block every 900 ticks, so the longer you play, the more claim blocks you receive. "
+				""
+				"Select a starting block via the tool or where you are standing, and then select the end point with the tool or where you are standing (or exact coordinates can be typed)."
+				""
+				"/help flan"
+				"will give you a list of available commands, like adding players to your claim, promoting them to do or not do certain things, and so much more. "
+			]
+			id: "071541909661ECA8"
+			tasks: [{
+				id: "462798E838C79DEF"
+				type: "checkmark"
+				title: "Claim Land"
+			}]
+			rewards: [
+				{
+					id: "44D3699AD14360A3"
+					type: "item"
+					item: "kubejs:aqm2"
+				}
+				{
+					id: "5304DDAC7BFDD6FC"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Zoom Zoom"
+			icon: {
+				id: "additionaladditions:crossbow_with_spyglass"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.5d
+			y: 5.0d
+			subtitle: "Zoom with the \"V\" Key!"
+			description: [
+				"Use the \"V\" key to Zoom"
+				""
+				"Also, take this crossbow with a spyglass just because you're awesome."
+			]
+			id: "7378A01FE062F915"
+			tasks: [{
+				id: "544CD933F5DB472E"
+				type: "checkmark"
+				title: "Zoom Zoom"
+			}]
+			rewards: [{
+				id: "245FBC9AF2E1FEC2"
+				type: "item"
+				item: {
+					id: "additionaladditions:crossbow_with_spyglass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "How to Sort"
+			icon: "minecraft:lead"
+			x: 2.0d
+			y: 0.5d
+			subtitle: "Sort is a necessity in any modpack, and this one is no different."
+			description: [
+				"- Middle Mouse button empty slot to sort"
+				"- I + C in game to open Item Scroller Menu (which shows all hotkeys for scroll sorting)"
+				"- R + C in game to open Inventory Profiles menu which also goes over hot keys + tweaks."
+			]
+			id: "294578C7D4072356"
+			tasks: [{
+				id: "1A0447F95F262A56"
+				type: "checkmark"
+				title: "Complete"
+			}]
+		}
+		{
+			title: "How to Find Items in All Chests"
+			icon: "minecraft:chest"
+			x: 7.5d
+			y: 1.5d
+			subtitle: "Misplaced something and have lots of chests early game?"
+			description: [
+				"Chest Tracker is the small icon in your inventory on the top right. Click it to see all the items you can find in your chests. It will highlight whatever chest has the item you selected, and it remembers every item you encountered in chests."
+				""
+			]
+			id: "416EBB7198D253DB"
+			tasks: [{
+				id: "0E04151EB0D6C23F"
+				type: "checkmark"
+				title: "Complete"
+			}]
+		}
+		{
+			title: "Silk Touch a Spawner"
+			x: 1.0d
+			y: 1.0d
+			subtitle: "Silktouch Spawner"
+			description: ["Get Silk Touch enchantment and do your thing"]
+			id: "638C86BBE9B9FA6E"
+			tasks: [{
+				id: "40B95D419E4E8091"
+				type: "item"
+				item: "minecraft:spawner"
+			}]
+			rewards: [{
+				id: "24640D6FC9BD991B"
+				type: "item"
+				item: "minecraft:cat_spawn_egg"
+			}]
+		}
+		{
+			title: "Change your skin"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: 5.5d
+			y: 5.0d
+			description: [
+				"You can change your skin two different ways."
+				""
+				"The first way is using the keybind to open up the skin menu, which you can find under Controls using the filtered search, type"
+				""
+				"@c Tailor"
+				""
+				"This will bring up the mod category (Tailor) and display all keybinds related to it."
+				""
+				"The second way is by using the /skin   command. You can change skin by URL (get the image url), a file on your computer, or even another players name."
+			]
+			id: "52E5521AE0FB29EF"
+			tasks: [{
+				id: "79ED5703FA681700"
+				type: "checkmark"
+				title: "Complete"
+			}]
+		}
+		{
+			title: "Carry Things (TEMPORARILY REMOVED)"
+			x: 0.0d
+			y: -0.5d
+			subtitle: "With a Carrier Glove, you can move lots of different blocks"
+			description: [
+				"With a Carrier Glove, you can move lots of different blocks like Crafting Tables, Expanded Storages, Cables, Smithing Tables, and so much more (NO Spawners or Vanilla Chests)"
+				""
+				"Craft a Carrier Glove and Sneak + Rightclick to carry it. Do know that this will cost you some hunger and slow you down until its placed with Right Click."
+			]
+			id: "7F73193A153674A7"
+			tasks: [{
+				id: "15E423A5B293B80C"
+				type: "item"
+				item: "carrier:glove"
+			}]
+			rewards: [{
+				id: "4D282F6E83932E2B"
+				type: "item"
+				item: "gofish:wooden_crate"
+			}]
+		}
+		{
+			title: "Find Gobber Globettes"
+			x: 6.0d
+			y: 3.0d
+			subtitle: "Gobber Gobber Gobber..."
+			description: [
+				"If this pack were a human body, Gobber would be the spine. Paxels, Tree Axes, 5x5 Hammers, Rings, Medallions, It's got it all, but very rare to find the ore. Go find some Gobber Ore and mine it with at least a diamond pick axe"
+				""
+				"Do note; a lot of recipes in AQM2 require gobber materials due to gobber ore being very rare."
+				""
+				"Once this task is completed, it will unlock more gobber quests in a different category outside of Start Here."
+				""
+				"Click On the Gobber above and click submit. This will consume 1 Gobber."
+			]
+			size: 3.0d
+			min_width: 400
+			id: "40AC615E022379B9"
+			tasks: [{
+				id: "7340447646BC18C6"
+				type: "item"
+				title: "Submit Gobber"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gobber2:gobber2_globette"
+							}
+							{
+								Count: 1b
+								id: "gobber2:gobber2_ore"
+							}
+							{
+								Count: 1b
+								id: "gobber2:gobber2_ore_deepslate"
+							}
+						]
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "29641C25A1C1C478"
+					type: "item"
+					item: "gobber2:gobber2_goo"
+				}
+				{
+					id: "2618066D90FFA64C"
+					type: "item"
+					item: "gobber2:gobber2_globette"
+				}
+			]
+		}
+		{
+			title: "Waystones..."
+			x: 8.0d
+			y: 3.5d
+			subtitle: "Waystones are one of the more common ways to get around the world here in AQM"
+			description: [
+				"You can claim waystones that do not have a owner, and retrieve payments."
+				""
+				"The payment item to use a waystone is 1 Gobber Globette."
+				""
+				"Owners can Sneak + Right click a waystone to retrieve the payments others paid to use."
+				""
+				"You can break waystone but not with just any tool. You need a Level 4 Harvesting level tool to do this. (Diamond+)"
+			]
+			id: "4071CC2AEF557C8F"
+			tasks: [{
+				id: "13BEE17022D37FA7"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+		}
+		{
+			title: "Dungeon Lootables"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"We got Effect Hats, Artifacts, Magic Spells (Found on Lecterns and Bookshelves), Enchantments, and more that can only be found in dungeon chests."
+				""
+				"To complete this quest, you must find all the MC Dungeon Artifacts."
+			]
+			hide_dependency_lines: false
+			id: "2C33CCFB8DDEE5C3"
+			tasks: [
+				{
+					id: "2A3620560C896670"
+					type: "item"
+					item: {
+						id: "mcdar:boots_of_swiftness"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "037DB8AB9C599587"
+					type: "item"
+					title: "Cut Crops?"
+					item: {
+						id: "mcdar:wonderful_wheat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7528D4E0EDC71689"
+					type: "item"
+					title: "I wonder what this will summon.."
+					item: {
+						id: "mcdar:tasty_bone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "53918CA98947D052"
+					type: "item"
+					title: "The Buzzy Nest allows you to spawn in soldier bees to help attack your enemies"
+					item: {
+						id: "mcdar:buzzy_nest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "316B9261998B7BC8"
+					type: "item"
+					title: "Summon elements"
+					item: {
+						id: "mcdar:satchel_of_elements"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A59A597A6BD031B"
+					type: "item"
+					title: "Its a mystery"
+					item: {
+						id: "mcdar:updraft_tome"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1ED471DFD8830E03"
+					type: "item"
+					title: "Put your enemies in a frenzy"
+					item: {
+						id: "mcdar:iron_hide_amulet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "663EDE012A0CEA0B"
+					type: "item"
+					title: "Get some nice armor"
+					item: {
+						id: "mcdar:wind_horn"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "14C7F541A4CFF3F8"
+					type: "item"
+					title: "Temporary Invisibility"
+					item: {
+						id: "mcdar:ghost_cloak"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5D099239D5682418"
+				type: "choice"
+				auto: "disabled"
+				table_id: 2919854265915651793L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			subtitle: "Modded Minecraft 101... You need a backpack. Its essential."
+			description: ["So, Go ahead and craft a inmis Baby Backpack and turn it in for a better reward! After that, work on getting higher tiers of the backpacks as you get so much more storage space."]
+			id: "43E87948D1604211"
+			tasks: [{
+				id: "3939E3B0004E3AFE"
+				type: "item"
+				title: "Turn in your empty baby backpack"
+				item: {
+					id: "inmis:baby_backpack"
+					Count: 1b
+					tag: { }
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "75F74210F46C8EB5"
+				type: "item"
+				item: {
+					id: "inmis:frayed_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Chisel This, Chisel That"
+			x: 7.5d
+			y: 4.5d
+			subtitle: "We got Chisels.... and its a wonderful tool for a inchling."
+			description: ["Bits n Chisels allows the player to chisel out ANY block in the world. Try it out!"]
+			id: "0C01DD5FD3795E65"
+			tasks: [{
+				id: "2773F5A9BADC3CB7"
+				type: "item"
+				item: {
+					id: "bitsandchisels:iron_chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6D8CC593AA9330B5"
+				type: "item"
+				item: "additionaladditions:mysterious_bundle"
+			}]
+		}
+		{
+			title: "Moar Space (Unlocks Questline)"
+			x: 4.0d
+			y: 3.5d
+			subtitle: "With all the Mining you will be doing a dank is a great way to hold the blocks you mine."
+			description: [
+				"The Dank 1 Can hold 256 of 9 different items. "
+				""
+				"Each tier hold 4X the stack size and 9 more types than the previous tier,"
+				""
+				"Later you can use the dock to be able to connect to your storage system"
+			]
+			id: "135CCA336BE0DDCF"
+			tasks: [{
+				id: "7F8FF314DE302FFF"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+			rewards: [{
+				id: "33B6A12454401D60"
+				type: "xp"
+				xp: 2
+			}]
+		}
+		{
+			title: "Reset Origins"
+			icon: "origins:orb_of_origin"
+			x: 4.5d
+			y: 4.5d
+			subtitle: "Learn how to reset your origin"
+			description: ["Craft a Orb of Origin to reset your origin. But look, i'm a nice guy. I'll give you one free reset because you're awesome."]
+			id: "19534F81193FF552"
+			tasks: [{
+				id: "2F701E70DBDA56F4"
+				type: "checkmark"
+				title: "Yay, one free reset"
+			}]
+			rewards: [{
+				id: "3A95EC1EBB4CBF72"
+				type: "item"
+				title: "Orb of Origin"
+				item: "origins:orb_of_origin"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			subtitle: "Find Structures with this guy"
+			dependencies: ["0DFD9D948D188C8A"]
+			hide: true
+			id: "37858C2342635F64"
+			tasks: [{
+				id: "266725330869C202"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "19AFFE0A6973B745"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Free House!"
+			icon: "prefab:item_start_house"
+			x: 0.8d
+			y: 7.2d
+			subtitle: "Introducing... Prefab Structures"
+			description: [
+				"Your first Prefab structure is on us. PS: Do yourself a favor and if youre in a server, do not build next to spawn :)"
+				""
+				"Be sure to view all the @prefab structures that are available, you can build an amazing base with two clicks."
+			]
+			size: 1.6d
+			secret: true
+			id: "580922BEFEDA9C42"
+			tasks: [
+				{
+					id: "0F5C49C0AA3F013F"
+					type: "gamestage"
+					title: "Join Game"
+					icon: "prefab:item_start_house"
+					stage: "starting_items"
+				}
+				{
+					id: "0CA63F10DD79246D"
+					type: "questsadditions:time"
+					title: "Tick Tock"
+					elapsedTime: 360L
+				}
+			]
+			rewards: [{
+				id: "4A1B778F8F84688F"
+				type: "item"
+				item: "prefab:item_start_house"
+			}]
+		}
+		{
+			title: "So you wanna be an Arcanite?"
+			icon: {
+				id: "botania:twig_wand"
+				Count: 1b
+				tag: {
+					color1: 3
+					color2: 3
+				}
+			}
+			x: -0.5d
+			y: 3.5d
+			subtitle: "You level via XP"
+			description: ["Acolytes unlock the Fireball skill. Use your Primary origin key to cast"]
+			id: "7F89FD818EBFB6C9"
+			tasks: [{
+				id: "238AC6907B05BE68"
+				type: "advancement"
+				title: "Unlock Acolyte"
+				icon: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				advancement: "arcanite:acolyte"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "557F24BD35D4A901"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			icon: "dimdoors:mask_wand"
+			x: 0.5d
+			y: 3.5d
+			subtitle: "The power of Lightning"
+			description: ["To Cast Lightning: Use OFF-HAND Key, \"F\""]
+			dependencies: ["7F89FD818EBFB6C9"]
+			id: "5F9A35A5D8196A7B"
+			tasks: [{
+				id: "3791291E41093A85"
+				type: "advancement"
+				title: "Unlock Adept"
+				advancement: "arcanite:adept"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "78BA01924F9F499E"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			subtitle: "Cast Withercall"
+			description: ["To Cast Withercall: Use the Secondary origin key. Make sure you set it in your keybinds."]
+			dependencies: ["5F9A35A5D8196A7B"]
+			id: "4FDB3FE002A62B8C"
+			tasks: [{
+				id: "33B71091ACBA8E3E"
+				type: "advancement"
+				title: "Unlock Magus"
+				icon: {
+					id: "arcanus:initiate_wand"
+					Count: 1b
+					tag: {
+						arcanus: { }
+					}
+				}
+				advancement: "minecraft:story/root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7C114F6B18C88F47"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "Unlock Thaumaturge"
+			x: 1.5d
+			y: 4.5d
+			subtitle: "You're now immune to fire and lightning"
+			dependencies: ["4FDB3FE002A62B8C"]
+			id: "31C4605E2A02A311"
+			tasks: [{
+				id: "3D9C6D9622E406A1"
+				type: "advancement"
+				title: "Unlock Thaumaturge"
+				icon: {
+					id: "arcanus:adept_wand"
+					Count: 1b
+					tag: {
+						arcanus: { }
+					}
+				}
+				advancement: "arcanite:thaumaturge"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "508EE25D7D7A3D77"
+				type: "xp"
+				xp: 40
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			subtitle: "You can cast ElytraFlight"
+			dependencies: ["31C4605E2A02A311"]
+			id: "331F34CAE015D773"
+			tasks: [{
+				id: "1EA750E2B59E5D10"
+				type: "advancement"
+				icon: {
+					id: "arcanus:master_wand"
+					Count: 1b
+					tag: {
+						arcanus: { }
+					}
+				}
+				advancement: "arcanite:master"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "31E954436FEFA290"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "Wall Jumping"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 1s
+					}]
+				}
+			}
+			x: 9.5d
+			y: -0.5d
+			subtitle: "Yes, you can wall jump!"
+			description: [
+				"First, you need the enchantment. once placed on boots, change your keybind (otherwise its \"SHIFT\" by default, doesnt work. change it) "
+				"When you jump onto the wall, hold down your keybind. you will cling onto the wall. You can then hold space bar, and let go of the walljump keybind to jump from the wall. rinse and repeat."
+			]
+			id: "5D57BC2A763753F5"
+			tasks: [{
+				id: "29C461F65FCD919B"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Vein Mining"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 4s
+					}]
+				}
+			}
+			x: 10.5d
+			y: -0.5d
+			subtitle: "Yes, you can vein mine!"
+			description: [
+				"To vein mine, you need to add the enchantment to your pickaxe. It is a treasure enchantment, however, it can also be purchased using a Dark Enchanting Table for a lot of XP."
+				""
+				"Once you have the enchantment, hold down the ` key to vein mine while mining. You can change this keybind. "
+			]
+			id: "0096C7D2617A84C8"
+			tasks: [{
+				id: "15318E711802697E"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Weapon Thrower!"
+			icon: {
+				id: "betternether:nether_ruby_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "betternether:ruby_fire"
+						lvl: 1s
+					}]
+				}
+			}
+			x: 10.0d
+			y: 0.5d
+			subtitle: "You can throw weapons to hurt things"
+			description: [
+				"Default keybind is \"R\", you will most likely need to change this. Once held, you will wind up your throw. When you let go, you will throw it. longer you hold = further its thrown"
+				""
+				"You can deal good damage, cause concussions, and more. Let it be known the item will despawn after 30 seconds, so run to it if you want it back"
+			]
+			id: "068E00FB696E3111"
+			tasks: [{
+				id: "0B560C8D11F269EA"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7C19F5D070F5C8D3"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Why are Vanilla Mobs Hard?"
+			x: 6.050000000000004d
+			y: 7.242857142857147d
+			subtitle: "What's going on?"
+			description: [
+				"By now you realized vanilla zombies run faster, creepers are charged and do not stop, and also several vanilla mobs are attacking villagers.."
+				""
+				"This is due to Totally Enough Pain, a mod that vamps up difficulty. Zombies have a chance to break doors, Ghasts have a larger explosion, and more. Good luck!"
+			]
+			size: 1.75d
+			secret: true
+			id: "504D27355350A1E6"
+			tasks: [
+				{
+					id: "45D00E0C0A7CD31D"
+					type: "kill"
+					icon: "mobz:fasthead"
+					entity: "minecraft:zombie"
+					value: 2L
+				}
+				{
+					id: "29BD4D497ABEF967"
+					type: "kill"
+					icon: "minecraft:creeper_head"
+					entity: "minecraft:creeper"
+					value: 2L
+				}
+			]
+			rewards: [{
+				id: "5513F5C000CC1A64"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Hookshots!"
+			x: 4.5d
+			y: 1.5d
+			subtitle: "Netheressity"
+			description: [
+				"Stackable Upgrades using Smithing Table"
+				""
+				"- Aquatic Upgrade (Prismarine Shard) lets the hookshot glide through water"
+				"- Enderic Upgrade (Eye of Ender) teleports instead of pulls"
+				"- Quick Upgrade (Piston) speeds up the hook by 50%"
+				"- Long Upgrade (Chain) doubles the range"
+				"- Automatic Upgrade (Observer) automatically diconnects the hook"
+				"- Durability Upgrade (Obsidian) doubles the durability of the hookshot"
+				"- Bleed Upgrade (Arrow) causes bleeding on hooked entities"
+			]
+			id: "58FF21F45DC7C7AB"
+			tasks: [{
+				id: "4D4BF695DD418A68"
+				type: "item"
+				title: "Any #hookshot:hookshots"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hookshot:hookshots"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C7C8510B78C764C"
+				type: "item"
+				item: "minecraft:oak_sapling"
+			}]
+		}
+		{
+			title: "Nomad Portable Camps"
+			icon: "nomadbooks:grass_page"
+			x: 10.0d
+			y: 5.0d
+			subtitle: "Think Yurts, but stored and deployed via Nomad Books, basic tier stores 3x1x3 "
+			description: [
+				"Grass Pages, which allow the player to craft and upgrade nomad books - can be found with a 50% chance in the loot chests of buried treasures, cartographer villagers, dungeons, jungle temples, mineshafts and pillager outposts."
+				""
+				"They can also be found in stronghold library chests in stacks of 0-3."
+				""
+				"Another way of obtaining grass pages is by dismantling Nomad Books in a crafting grid while the camp is deployed. For dismantling a Nomad Book the player will receive 3 grass pages for the book itself, 1 page per height upgrade and 2 pages per width upgrade as well as 1 page per special upgrade."
+			]
+			id: "63332BE64275DF9F"
+			tasks: [
+				{
+					id: "0754B7B5C0227DDF"
+					type: "item"
+					title: "Find 3 Grass Pages"
+					item: "nomadbooks:grass_page"
+					count: 3L
+				}
+				{
+					id: "3804112795691F62"
+					type: "item"
+					title: "Craft Nomad Book"
+					item: {
+						id: "nomadbooks:nomad_book"
+						Count: 1b
+						tag: {
+							nomadbooks: {
+								Structure: "nomadbooks:campfire3x1x3"
+								Height: 1
+								Width: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5525A5A6F2AD3C0B"
+				type: "item"
+				item: "givemehats:top_hat"
+			}]
+		}
+		{
+			title: "Upgrade Height Limit"
+			icon: {
+				id: "nomadbooks:nomad_page"
+				Count: 1b
+				tag: {
+					nomadbooks: { }
+				}
+			}
+			x: 9.5d
+			y: 6.0d
+			subtitle: "Must be undeployed (in a book) to upgrade height"
+			description: ["A book’s height can be upgraded by shapelessly combining it with grass pages in a crafting inventory. Despite there being no limit to the height of a camp, the higher it gets the more difficult the search for a good spot may be since not only space that is actually used must be emptied of obstacles."]
+			dependencies: ["63332BE64275DF9F"]
+			optional: true
+			id: "041C685E199A9CF6"
+			tasks: [{
+				id: "1E9CBF3FCE08FAFA"
+				type: "item"
+				item: {
+					id: "nomadbooks:nomad_book"
+					Count: 1b
+					tag: {
+						nomadbooks: {
+							Structure: "nomadbooks:campfire3x1x3"
+							Height: 1
+							Width: 3
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F6C050A219A819C"
+				type: "item"
+				item: "minecraft:grass"
+			}]
+		}
+		{
+			title: "Upgrade Width Limit"
+			x: 10.5d
+			y: 6.0d
+			subtitle: "Must be undeployed (stored in a book) to upgrade width"
+			description: [
+				"You need to add Itinerant Ink. Itinerant ink can be applied to a book by shapelessly combining it with a ghast tear, blue dye and charcoal."
+				""
+				"Upon application, a goal will be decided depending on the current width size. Progress towards this goal is made by visiting biomes that the book hasn’t been to yet. Note that it does not have to be a new kind of biome."
+			]
+			dependencies: ["63332BE64275DF9F"]
+			optional: true
+			id: "2BF2EB8628BEDA3D"
+			tasks: [{
+				id: "6BD22CFAF9E08889"
+				type: "item"
+				item: {
+					id: "nomadbooks:nomad_book"
+					Count: 1b
+					tag: {
+						nomadbooks: {
+							InkGoal: 8
+							Structure: "nomadbooks:campfire3x1x3"
+							Width: 3
+							Inked: 1b
+							Height: 2
+							InkProgress: 0
+							VisitedBiomes: ["Reference{ResourceKey[minecraft:worldgen/biome / minecraft:stony_shore]=net.minecraft.class_1959@164b5a09}"]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 8.0d
+			subtitle: "Underwater camp"
+			description: ["The Aquatic Membrane page adds a membrane to your camp that will stop fluids from entering but lets the player as well as other entities pass, opening up the possibility to place your camp underwater!"]
+			dependencies: ["223D6112E898633B"]
+			optional: true
+			id: "7AAD83DC940D8AF2"
+			tasks: [{
+				id: "2A446E71C234AFA3"
+				type: "item"
+				item: "nomadbooks:aquatic_membrane_page"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 9.0d
+			subtitle: "Camp on uneven terrain"
+			description: ["The Mycelium Page is a special page granting the Fungi Support upgrade. Fungi support allows the camp to be deployed on rough surfaces, as long as no obstacles interfere, by growing a special mushroom to fill up the missing floor blocks."]
+			dependencies: ["223D6112E898633B"]
+			optional: true
+			id: "53DA481A3711CCFF"
+			tasks: [{
+				id: "1767DC461DC52524"
+				type: "item"
+				item: "nomadbooks:mycelium_page"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 10.0d
+			subtitle: "Fire proof your camp"
+			description: ["By combining the Nomad Book with a netherite ingot in an usual crafting grid the dropped item won’t be destroyed in lava and instead swims up in it, similar to netherite ingots, tools and armour."]
+			dependencies: ["223D6112E898633B"]
+			optional: true
+			id: "782C06F0CBB96DDA"
+			tasks: [{
+				id: "6E4EF6FD006488EB"
+				type: "item"
+				item: {
+					id: "nomadbooks:nether_nomad_book"
+					Count: 1b
+					tag: {
+						nomadbooks: {
+							Width: 3
+							Height: 1
+							Structure: "nomadbooks:nethercampfire3x1x3"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Special Upgrades"
+			icon: "indrev:tier_upgrade_mk4"
+			x: 10.0d
+			y: 7.0d
+			subtitle: "How to add Special Upgrades"
+			description: ["Special upgrades are upgrades that only have to be applied once to a book and add special properties to itself or the camp. Upgrades are applied by combining the book with a specific item in a crafting grid. The items required per upgrade are listed after this quest."]
+			dependencies: ["63332BE64275DF9F"]
+			optional: true
+			id: "223D6112E898633B"
+			tasks: [{
+				id: "34E3D3570C979F83"
+				type: "checkmark"
+				title: "Okay!"
+			}]
+		}
+		{
+			title: "Recipe Confliction?"
+			x: 10.0d
+			y: 2.6785714285714306d
+			subtitle: "Read Me!"
+			description: [
+				"If you are using a vanilla crafting table/furnace/or any other vanilla station, Polymorph will not take effect, which allows you to choose which output item in your recipe"
+				""
+				"Use \"Improved Stations\" stations for crafting as it works with Polymorph, and also holds items left in its screen."
+			]
+			size: 2.0d
+			id: "2B70D65FA38D567F"
+			tasks: [
+				{
+					id: "0479D7C1254370A6"
+					type: "item"
+					item: "improved-stations:crafting_station"
+				}
+				{
+					id: "2003430231FEEE77"
+					type: "item"
+					item: "improved-stations:crafting_station_slab"
+				}
+				{
+					id: "0F3CF7AEFB82194F"
+					type: "item"
+					item: "improved-stations:furnace_slab"
+				}
+				{
+					id: "11EAE1A528D7427D"
+					type: "item"
+					item: "improved-stations:smoker_slab"
+				}
+				{
+					id: "09505F6CE83C4A7C"
+					type: "item"
+					item: "improved-stations:blast_furnace_slab"
+				}
+				{
+					id: "62E3582D70EEF1B7"
+					type: "item"
+					item: "improved-stations:jukebox_slab"
+				}
+				{
+					id: "4108D21F9E8B7A15"
+					type: "item"
+					item: "improved-stations:loom_slab"
+				}
+				{
+					id: "2CCDD673B11FA39B"
+					type: "item"
+					item: "improved-stations:cartography_table_slab"
+				}
+			]
+		}
+		{
+			title: "Mining Dimension"
+			x: 6.5d
+			y: 1.0d
+			description: [
+				"to craft a mining dimension portal you need 8 emeralds and cracked stone bricks for each portal block, and you can light it with a diamond pickaxe"
+				""
+				"Gobber and Mythic Metal ores do not generate in this dimension."
+			]
+			id: "5980863B80617D30"
+			tasks: [{
+				id: "7EBA7BF3AF4019DC"
+				type: "item"
+				title: "Pure Mining Dimension"
+				disable_toast: true
+				item: "spectrum:end_portal_cracker"
+			}]
+		}
+		{
+			title: "Respawnable Pets"
+			x: 5.5d
+			y: 1.0d
+			subtitle: "Using this gem on your pet will allow it to respawn"
+			id: "014910E4CBF7157C"
+			tasks: [{
+				id: "4F7C0DF1727DA7AA"
+				type: "item"
+				item: "respawnablepets:etheric_gem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "Funko Pops!"
+			description: ["Convert a villager into a Funko Pop villager that sells Mine Pops"]
+			id: "75974D9C410B0EED"
+			tasks: [{
+				id: "38F66AD175AECC97"
+				type: "item"
+				item: "xxxx:minepop_seller"
+			}]
+			rewards: [{
+				id: "3093E52821627EB2"
+				type: "item"
+				item: "xxxx:minepop_itachi"
+			}]
+		}
+		{
+			x: -1.2857142857142847d
+			y: 0.5d
+			subtitle: "One menu to see the all"
+			description: [
+				"Place this where your villagers are and you will get all trades in one menu"
+				""
+				"The range is 24 blocks horizontally, 14 blocks vertically"
+			]
+			size: 1.5d
+			id: "7B9FF9B3955224DA"
+			tasks: [{
+				id: "774028ECB27A66E5"
+				type: "item"
+				item: "tradingpost:trading_post"
+			}]
+			rewards: [{
+				id: "40982C5C6DF542AE"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+	]
+}

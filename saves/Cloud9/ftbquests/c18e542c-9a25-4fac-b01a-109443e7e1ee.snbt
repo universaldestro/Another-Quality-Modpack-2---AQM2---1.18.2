@@ -1,0 +1,19 @@
+{
+	version: 1
+	uuid: "c18e542c9a254facb01a109443e7e1ee"
+	name: "Trafalk"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: {
+		0CA63F10DD79246D: 34005212038L
+	}
+	started: {
+		580922BEFEDA9C42: 1700260241917L
+		0000000000000001: 1700260241917L
+		48AED9D0BCAFF527: 1700260241917L
+	}
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}
